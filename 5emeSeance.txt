@@ -1,0 +1,192 @@
+NB-->Seance5-->Module1
+
+NB-->29/01/2018-->Seance5-->Module1
+
+Objectifs de la Seance
+1)Comprendre la methodologie d'analyse d'un programme java
+2)Comprendre toutes les notions liees à la syntaxe de java et de leur synntaxe d'ecriture
+-->Instruction
+-->Variable
+-->type de variable
+-->Declaration
+-->Affectation
+-->Declaration + Affectation
+-->Instanciation
+3)Etre capable d'identifier les differents types d'instructions
+4)Comprendre la notion de methode :
+-->declaration d'une methode 
+-->Syntaxe d'une methode
+-->Implementation ou corps d'une methode
+5)Comprendre la methodologie de creation d'une methode
+6)Etre capable de produire un code source comportant des methodes
+7)Etre capable de creer des objets à partir des classes et de les reutiliser dans une classe principale
+
+
+Qu'est ce que programmer en Orienté Objet ?
+C'est creer des objets--> qui vont communiquer les uns avec les autres
+Qu'est ce qu'une instruction ?
+Une instruction-->c'est une ligne de code se terminant par un point virgule(;)
+
+Où sont les instructions dans un code java ?
+Une instruction se trouve toujours dans une classe-->Mais elle peut etre à l'interieur comme à l'exterieur d'une methode
+Quels sont les différents types d'instruction ?
+Il y'a 5 types d'instructions :
+1)Appel d'un savoir faire particulier
+2)Declaration
+3)Affectation
+4)Declaration+Affectation
+5)Instanciation
+Qu'est ce qu'une variable ?
+En java une variable est toujours associée à un type-->le type definit la Structure interne de la variable
+Qu'est ce qu'un 'type de variable' ?
+
+Qu'est ce qu'une méthode ?
+Qu'est ce que la signature d'une méthode ?
+Qu'est ce qu'un paramètre d'une méthode ?
+Qu'est ce qu'une instanciation ?
+Proposer code d'une classe avec 2 méthodes
+Instanciez et utilisez votre classe à partir
+d'une classe principale.
+
+
+NB-->29/01/2018-->Seance5-->Module1
+
+Objectifs de la Seance
+1)Comprendre la methodologie d'analyse d'un programme java
+2)Comprendre toutes les notions liees à la syntaxe de java et de leur synntaxe d'ecriture
+-->Instruction
+-->Variable
+-->type de variable
+-->Declaration
+-->Affectation
+-->Declaration + Affectation
+-->Instanciation
+3)Etre capable d'identifier les differents types d'instructions
+4)Comprendre la notion de methode :
+-->declaration d'une methode 
+-->Syntaxe d'une methode
+-->Implementation ou corps d'une methode
+5)Comprendre la methodologie de creation d'une methode
+6)Etre capable de produire un code source comportant des methodes
+7)Etre capable de creer des objets à partir des classes et de les reutiliser dans une classe principale
+
+
+(1)NB-->Comprendre la methodologie d'analyse d'un programme java
+
+Analyser un programme java c'est :
+-->Identifier le nombre de fichier source
+-->dans ce fichier : Identifier le nombre de classes
+-->dans la ou les classes :Identifier le nombre de methodes
+-->dans la ou les methodes :Identifier le nombre d'instructions
+-->dans la ou les instructions : Identifier le nombre de types d'instructions
+
+(2)NB-->Comprendre toutes les notions liees à la syntaxe de java et leur syntaxe d'ecriture 
+
+1ere notion-->Instruction : Une Instruction est une ligne de code qui se termine par un point virgule (;)
+
+Il y'a 6 types d'instructions
+-->Une instruction peut etre de type: Appel d'un savoir-faire
+-->Une instruction peut etre de type: Declaration
+-->Une instruction peut etre de type: Affectation
+-->Une instruction peut etre de type: Instanciation
+
+NB--> return   ; est egalement une instruction
+
+2eme notion-->Variable :Une variable est un mot qui sera manipule dans votre programme
+le nom de la variable doit etre different des mot cles de java( class; public ; static ;void etc)
+
+3eme notion-->type de variable : java est un langage typé-->signifie que toute variable doit avoir un type
+
+Il existe deux formes de types :
+
+-->types primitifs ( int ;long ;char ;boolean ;float ;double ;short )
+-->types Objet (qui porte le nom de la classe )
+
+4eme notion-->Declaration : C'est une instruction qui permet  de connaitre le type de la variable
+
+Cest au moment de la declaration que l'allocation en memoire va se faire
+Par contre si la declaration est de type objet--> l'allocation ne se fait pas en meme temps-->il faut creer une reference vers un objet
+au moment de l'instanciation la reservation en memire va se faire
+
+5eme notion-->Affectation : Une affectation est une instruction permettant d'associer à une variable declaree une valeur.
+
+6eme notion-->declaration + Affectation :
+
+String employe1="Yves";
+
+int salaire=450 000;
+
+7eme notion-->Instanciation : 
+
+Instanciation=Creation d'un objet --> Elle se fait via le mot cle : new --> Exemple
+
+Employe employe=new Employe();
+
+autre exemple :
+
+Employe a;
+
+a=new Employe();
+
+
+(4)NB-->Comprendre la notion de methode
+
+ Methode=savoir-faire
+ 
+ Une methode-->c'est un ensemble d'instructions qui sontsuffisament generique pour etre reutiliser
+ 
+ La methode se trouve toujours dans une classe-->dans une classse on peut avoir plusieurs methodes
+ 
+ Methode=Declaration + Implementation
+ 
+ public void travailler(){
+ System.out.println("l'employe travaille");
+ }
+ 
+ ***NB-->Une methode declaree-->est une methode qui n'a pas de corps
+ 
+ Declaration=Visibilite + type de retour + nom de la methode
+ 
+ Implementation=Instructions qui se trouvent entre les accolades
+ 
+ Signature Methode= Nom Methode + Parametres Methode
+ 
+ la signature d'une methode--> c'est la combinaison des informations suivantes
+ -->nom de la methode
+ -->les parametres de la methode
+ Exemple :
+ 
+ public void travailler ()-->sans les accolades(sans le corps de la methode )
+ 
+ ***NB--> Methodologie de creation d'une methode
+ 
+ 1)-->Proposer un nom à la methode-->le nom de la methode doit decrire ce que la methode fait
+ Exemple : calculer salaire
+ 
+ NB-->Recommandations :
+ -->Un nom qui decrit ce que la methode fait
+ Exemple :ecrire une methode qui permet de calculer le salaire d'un employe
+ 
+ --> le nom de la methode commence par convention par une lette minuscule
+ Exemple :
+ 
+ public void calculerSalaire(){
+ 
+ }
+ 
+ 2)-->Proposer une declaration-->
+ -->Visibilite
+ -->Si la methode ne renvoie rien : c'est--> : void
+ 
+ 3)-->Proposer une implementation
+ 
+ 
+ ***NB-->les contraintes d'execution d'une methode
+ 
+ Une methode à toujours un type de retour
+ 
+ 1ere containte-->Si la methode ne revoie rien--> on utilise le mot cle void
+ 
+ 2eme contrainte-->Si la methode doit renvoyer quelque chose-->preciser le type de la valeur de retour
+ 
+ 3eme contrainte-->Si la methode renvoie quelque chose-->la derniere instruction de la methode doit etre : return valeurRetournee ;

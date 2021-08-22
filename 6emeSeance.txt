@@ -1,0 +1,132 @@
+NB-->Seance6-->module1
+
+(1) Citez 5 atouts de Java
+1)-->Portabilite
+2)-->Oriente Objet
+3)-->Securite
+4)-->Reseau
+5)-->Memoire
+
+(2) Citez 5 repères clés développeur Java
+1)5 atouts cles du langage java
+2)plate forme java
+3)etageres et tiroirs java SE
+4)javadoc
+5)tutoriels Oracle
+(3) A quoi sert une condition ? Une boucle ?
+(4) Citez 4 opérateurs logiques
+(5) Citez 3 structures conditionnelles
+(6) Citez 3 structures de boucles
+(7) Qu'est ce que la condition ternaire ?
+(8) Qu'est ce le switch ?
+(9) Proposez une mise en oeuvre du switch
+Expliquez la boucle While
+Expliquez la boucle do...While
+Expliquez la boucle for
+Quelles différences entre while et do...while
+
+
+NB-->02/02/2018-->Seance6-->Module1
+
+
+NB-->Objectifs de la Seance
+1)Comprendre la notion d'Operateur logique
+2)Comprendre les differents types de Structure de Controle
+3)Comprendre la Syntaxe de chaque Structure de Controle
+4)Comprendre leur difference
+
+(1)NB-->Comprendre la notion d'Operateur logique
+Un Operateur logique est un signe utilise lors de conditions
+1)-->== : egalite
+2)-->!= : difference
+3)--> < :
+4)--> > :
+5)--> >=:
+6)--> &&:
+7)--> ||:
+8)--> ? :
+
+NB-->Pourquoi l'appellation : Operateur logique-->Parceque la reponse est de type boolean : Vrai ou faux
+
+NB--> les Conditions
+
+if(//Condition){
+Cette suite d'instructions-->sera execute
+}
+
+
+NB-->Tps sur les Conditions-->Faire un exemple pour chaque cas
+
+NB-->Exo1 : Ecrire un exemple de code qui met en oeuvre chaque structure de controle
+
+Mettez en oeuvre un code qui permet d'utiliser la condition if
+
+NB-->Travaillez avec Notepad++
+-->Creer un dossier : seance6-->dans lequel vous Creer un fichier avec l'extension .java-->Renommer le : ConditionIf
+-->Creer une classe-->dans laquelle vous mettez une methode avec la condition if
+
+public class ConditionIf{
+public void compare(int a,int b){
+if(a>b){
+system.out.println("Resultat"+a+"est superieur à"+b);
+}else if(a==b){
+system.out.println("Resultat"+a+"est egal à"+b);
+}else{
+system.out.println("Resultat"+a+"est inferieur à"+b);
+}
+}
+}
+
+-->Creer une classe principale-->qui va nous permettre d'executer notre programme
+
+public class MainConditionIf {
+public void main(String[]args){
+
+ConditionIf instance=new ConditionIf();
+
+instance.compare(3,5);
+}
+}
+NB-->Compiler : javac MainConditionIf.java-->Ensuite :Executer : java MainConditionIf(sans l'extension .java)
+
+NB-->Ce programme à ete teste dans Eclipse-->Donc ca doit marcher au niveau du CMD aussi 
+
+NB-->Exo2 : Ecrire un code qui met en oeuvre la condition Switch
+
+Creer une classe : ConditionSwitch-->dans laquelle vous mettez une methode qui permet de mettre en oeuvre la condition switch
+
+public class ConditionSwitch{
+
+public void appreciation(int note){
+
+switch(note){
+case 0:
+system.out.println("Faible");
+break;
+case 10:
+system.out.println("Passable");
+break;
+case 20:
+system.out.println("Exellent");
+break;
+default :
+system.out.println("Pas dde note")
+}
+
+}
+
+}
+
+NB-->Creer une classe principale
+
+public class MainConditionSwitch {
+
+public void main(String[]args)
+
+ConditionSwitch instance=new ConditionSwitch();
+
+instance.appreciation(10);
+
+}
+
+NB-->Compiler avec : javac -->Ensuite Executer avec : java

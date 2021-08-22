@@ -1,0 +1,136 @@
+NB-->Seance7-->Module1
+
+1)Qu'est ce qu'une architecture logicielle ?
+2)Lien entre Java et l'Orienté Objet ?
+
+Creer une Application en java-->c'est creer un ensemble d'objets qui communiquent les uns avec les autres
+
+3)Pourquoi dit'on 'Java est un langage typé' ? ?
+
+En java toute variable possede un type-->Ce n'est pas le cas en javaScript par exemple
+
+Le type d'une variable permet-->d'anticiper l'espace memoire associee à la variable
+
+4)Citez 5 types d'instruction en Java
+-->Appel à un savoir-faire
+-->Declaration
+-->Affectation
+-->Declaration + Affectation
+-->Instanciation
+5)Citez deux grandes familles de type en Java
+
+-->types primitifs
+-->types objets
+
+6)Vrai ou Faux ?
+– La première lettre d'un type objet est en majuscule
+– La première lettre d'une variable de type objet est en minuscule
+7)Citez 5 types primitifs
+8)Citez 5 types Objets fournis par Java
+9)Citez 5 types Objets non fournis par Java
+10)Qu'est ce qu'un Wrapper ?
+11)Qu'est ce qu'une méthode statique ?
+
+
+NB-->07/02/2018-->Seance7-->Module1
+
+NB-->Objectifs de la Seance
+
+1)Comprendre le Concept : Java est un langage type
+2)Comprendre les deux grandes familles de type en java
+-->types primitifs
+-->types Objets
+3)Comprendre la taille d'occupation en memoire des variables de type primitif
+4)Comprendre la notion de Conversion
+5)Comprendre la notion de Wrapper
+
+(1)NB--> Java est un langage type
+En java toute variable possede un type-->C'est pas le cas en javaScript par exemple
+
+Le type d'une variable-->permet d'anticiper l'espace de memoire associee à la variable
+
+Si la variable n'est pas associee à un type-->Au moment de la compilation-->Vous aurez une erreur
+
+C'est tres tres important-->le Compilateur en java n'accepte pas de compiler des variables sans type
+
+Exemples :
+instruction n°1-->ok--> Ca passe
+instruction n°2-->ok-->Ca passe
+instruction n°3-->ok--> si employe n'est pas cree-->on aura une erreur
+instruction n°4-->Non--> le type n'est pas determine
+instruction n°5-->ok--> Ca passe
+
+(2)NB-->Comprendre les 2 types de famille en java
+
+1ere famille-->types primitifs
+
+Ce sont des types de base-->Ils sont au nombre de 8
+
+1ere categorie-->types entiers
+-->byte-->1 octet-->8 bits
+-->short-->2 octets-->16 bits
+-->int-->4 octets-->32 bits
+-->long-->8 octets-->64 bits
+
+Ce sont les seuls types qui ne sont pas des classes en java
+
+2eme categorie-->types flottants
+-->float-->4 octets
+-->double-->16 octets
+
+3eme categorie-->type char
+-->char-->permet de representer des caracteres isoles-->16 bits
+
+4eme categorie-->type boolean
+-->boolean-->permet de representer les valeurs logiques : vrai ou faux
+-->boolean-->1 octet-->8 bits
+
+NB-->C'est tres tres important de comprendre ce principe de fonctionnement
+
+2eme famille-->types Objets
+-->C'est la famille des variables de type classe
+
+les seuls types qui ne sont pas des classes-->sont les types primitifs
+
+Tableau qui permet de resumer-->ce que nous venons de voir
+
+NB-->Demo types primitifs
+pour le type : boolean-->Vous pouvez mettre uniquement : true ou false
+
+char-->'M';
+
+NB-->Pour les variables de type float-->la valeur doit etre suffixer par la lettre : f
+C'est obligatoire pour float-->il faut mettre le suffixe : f
+
+(4)NB-->Conversions
+
+2 types de conversions
+-->Conversion implicite--> ou Conversion par Ajustement de type
+-->Conversion explicite
+
+Les conversions vers un type dont la taille est plus grande-->Ne causent pas de perte d'information
+Donc pas de perte de memoire-->C'est une conversion Implicite
+
+Exemple :
+
+byte-->vers-->short-->vers-->int-->vers-->long-->vers-->float-->vers-->double
+Conversion Implicite ou par Ajustement de type
+
+NB-->Toutes les autres conversions doivent etre preciser par le developpeur-->Conversion Explicite
+
+-->Conversion Explicite==> Casting
+Sinon vous avez une perte d'information-->perte de memoire
+
+Exemple de conversion explicite
+
+
+NB-->la notion de Wrapper
+C'est un Objet qui enveloppe un type primitif-->C'est donc un Objet qui possede des methodes
+
+l'inconvenient est que le Wrapper occupe d'avantage de memoire-->parceque s'implement il enveloppe un type primitif
+2eme inconvenient-->l'occupation en memoire depend egalement du systeme d'exploitation
+
+Exemple d'utilisation de Wrapper
+
+NB-->Tous les Wrappers se trouvent dans un package-->java.lang
+

@@ -1,0 +1,105 @@
+NB-->Seance4-->Module1
+
+//  Etape 1 : 1ere heure --> Objectifs de la Seance
+
+***NB-->Objectifs de la Seance
+1)-->Editer ; Compiler ; Executer un programme java
+avec un editeur de texte standard : exemple : Notepad++
+
+2)-->Methodologie pour Corriger une erreur de Compilation
+-->NB: Avec les editeurs de texte comme eclipse -->le probleme ne se pose pas
+car l'erreur est signalee avant execution
+
+3)-->Comprendre la difference entre le nom de la classe et lle nom d'un fichier
+
+4)-->Avantages et inconvenients de coder plusieures classes dans un meme fichier
+
+5)-->Syntaxe ou nomenclature d'une classe
+
+//  Etape 2 : 2eme heure : Rappel -->Notions fondammentales de la Seance precedente // Surtout la Partie Cours du jour
+
+NB-->dans cette 2eme heure -->Nous avons deux sous etapes : 
+01)Rappel des Notions fondamentales de la Seance precedente
+02)Partie cours du jour
+
+-->C'est le moment de tester le niveau de comprehension des etudiants : avec les Questions/reponses
+
+A quoi sert le jdk ?
+
+5 outils cles du jdk ?
+1)-->javac.exe --> qui permet de ?
+2)-->java.exe  -->qui permet de ?
+3)-->jar.exe   -->qui permet de ?
+4)-->javadoc.exe -->qui permet de ?
+5)-->jvisualvm.exe --> qui permet
+
+
+//  Etape 3 : 3eme heure : Partie tps de la Seance
+
+
+Questions Module1-Séance4
+
+1)Que veut dire 'Editer' un code ?
+2)Citez 3 éditeurs de code. Lequel choisir ?
+3)Quel est le bon ordre :
+– 1) Compiler 2) Exécuter 3) Editer
+– 1) Editer 2) Compiler 3) Exécuter
+4)Qu'est ce que le ByteCode ?
+5)Qu'est ce qu'une instruction ?
+6)Qu'est ce qu'une méthode ?
+7)Qu'est ce qu'une classe principale ?
+8)Comment fournir paramètres à programme ?
+9)En java , majuscule et minuscule important ?
+10)Comment corriger erreur de compilation ?
+
+
+(1)Que veut dire 'Editer' un code ?
+
+Editer= ecrire un code source dans un fichier
+
+(2)Citez 3 éditeurs de code. Lequel choisir ?
+
+-->Notepad++
+-->Eclipse
+-->Netbeans
+
+(3)Quel est le bon ordre :
+– 1) Compiler 2) Exécuter 3) Editer
+– 1) Editer 2) Compiler 3) Exécuter --> C'est le bon ordre
+Premier programme java : Edition-->Compilatio-->Execution
+
+(4)Qu'est ce que le ByteCode ?
+La Compilation genere un fichier : le ByteCode--> Ce ByteCode n'est pas lisible pour nous
+Ce ByteCode est utilise par la jvm pour Execution-->A partir du ByteCode la jvm produit à chaud du binaire pur
+-->le microprocesseur execute les instructions à partir du binaire pur genere par la jvm
+
+(5)Qu'est ce qu'une instruction ?
+Une instruction est une ligne de code qui se termine par un point virgule(;)
+
+(6)Qu'est ce qu'une méthode ?
+methode=savoir faire--> une methode se trouve dans une classe-->une classe possede :0;1 ou plusieures methodes
+
+(7)Qu'est ce qu'une classe principale ?
+
+Une classe principale-->c'est le point d'entree de l'application
+-->Classe principale=classe contenant une methode main
+-->dans une application composee de plusieures classes-->il faut rechercher la classe principale pour executer l'application
+
+(8)Comment fournir paramètres à programme ?
+
+(9)En java , majuscule et minuscule important ?
+
+(10)Comment corriger erreur de compilation
+
+(11)Definition d'une classe en java
+
+Une classe est une entite logicielle caracterisee par des proprietes et des savoir-faire(methodes)
+
+(12)Definition d'un objet en java
+
+Un objet est une entite logicielle caracterisee par des proprietes ; des savoir-faire(methodes)
+et un Etat(valeur à un instant des proprietes de la classe dont est issu l'objet)
+
+NB-->Creer un objet=instancier une classe (via new)
+
+Employe employe1=new Employe("Yves","Dupres");
