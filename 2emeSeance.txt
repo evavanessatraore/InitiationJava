@@ -1,0 +1,97 @@
+NB-->Seance2-->Module1
+
+***NB-->17/01/2018-->Seance2-->Module1-->5 Atouts + 5 reperes cles du developpeur java
+
+NB-->Objectifs de la seance
+1)Atouts du langage java
+2)Aspect technique de chaque Atout
+3)les reperes cles d'un developpeur java
+4)l'architecture en couche
+
+
+1)Citez 5 atouts du langage Java
+-->la portabilite// C'est la jvm qui permet à java d'etre un langage portable//la jvm transforme le bytecode en binaire pur
+l'Aspect technique derriere la portabilite-->c'est la jvm.
+-->Oriente objet
+l'Aspect technique derriere l'Oriente Objet-->C'est qu'un programme java: C'est juste un ensemble d'objets qui communiquent
+les uns avec les autres
+-->Securite
+l'Aspect technique derriere la securite-->c'est le fichier : java.policy
+-->Reseau
+l'Aspect technique derriere le reseau-->c'est : RMI(Remote Method Invocation)
+-->Memoire
+l'Aspect technique derriere la memoire-->C'est : la Garbage Collector
+
+2)Quel lien entre Java et sécurité applicative ?
+
+Sécurité --> vous pouvez empécher un Objet
+de nuire à votre système (ex : ecriture disque ,
+création connexion distante, lecture données
+sensibles).
+
+3)Java est Orienté Objet. Quelle valeur ajoutée
+
+Orienté Objet --> créer un programme Java,
+c'est instancier plusieurs Objets qui vont
+communiquer entre eux afin d'aboutir au
+résultat attendu.
+
+4)Quel lien entre Java et réseaux informatique ?
+
+Réseau ? vous pouvez créer des applications
+distribuées sur plusieurs ordinateurs distants.
+
+5)Qu'est ce que le Garbage collector ?
+
+Le Garbage Collector supprime
+de la mémoire les objets qui ne sont plus
+utilisés par votre programme
+
+6)Java est'il plus rapide que C++ ? Pourquoi ?
+
+
+7)Citez 3 différences entre Java et PHP
+
+
+
+1)Citez 5 repères clés pour le Développeur Java
+**Repere n°1 :5 atouts cles du langage java
+**Repere n°2 :plate forme java
+**Repere n°3 :etagieres et tiroirs java SE
+**Repere n°4 :javadoc
+**Repere n°5 :tutoriels oracle
+2)Qu'est ce qu'une API ?une Javadoc ?
+Une API= c'est une Application Programming Interface
+-->Une javadoc--> c'est la documentation de java
+Comment lire infos dans base de données
+Comment communiquer avec Objet distant ?
+Comment créer interface Homme Machine ?
+Où puis-je trouver des exemples de code ?
+Qu'est ce que : javac.exe, java.exe, jar.exe ?
+
+
+
+
+***NB-->17/01/2018-->Seance2-->Module1-->5 Atouts + 5 reperes cles du developpeur java
+
+NB-->Objectifs de la seance
+1)Atouts du langage java
+2)Aspect technique de chaque Atout
+3)les reperes cles d'un developpeur java
+4)l'architecture en couche
+
+(1)NB-->5 Atouts du langage java
+Ce sont ces atouts qui vont nous aider sur le choix du langage de programmation
+
+1er Atout-->la portabilite-->
+java est un langage portable-->qui s'execute sur differents systeme d'exploitation : sur tous les environnements
+
+2eme Atout-->Oriente Objet-->
+java est un langage oriente objet-->
+C'est à dire que-->creer une application java--> c'est juste creer des objets qui communiquent les uns avec les autres
+
+3eme Atout-->Securite
+
+4eme Atout-->reseau
+
+5eme Atout-->memoire
