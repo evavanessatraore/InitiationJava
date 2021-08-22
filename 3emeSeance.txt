@@ -1,0 +1,198 @@
+NB-->Initiation java --> SupInfo
+
+NB--> 3eme Seance
+
+Pour faire du java --> Nous avons besoin que de deux outils :
+1)-->du jdk --> Il sert à quoi le jdk (java developpement kit ) ?
+
+Il est indispensable pour creer une application en java
+
+2)-->Un editeur de texte ( comme : bloc note ; Notepad++ ; Eclipse ; Netbeans ; webstorm ; jetbrains )
+
+NB-->Ensuite creer un environnement de developpement
+
+1)-->Creer un dossier : developpement dans : C(disque local)
+Dans ce repertoire : developpement --> mettre les sous dossiers :
+
+01)-->sdk-->java-->jdk-->android-->
+02)-->ide ( Eclipse ; Netbeans ; Notepad++)
+03)-->server
+04)-->outil
+05)-->workspacejavase
+06)-->workspacejavaee
+07)-->worspacemaven
+
+NB-->Ecrire le nom des dossiers en minuscule
+
+***NB-->Objectifs de la Seance
+1)-->Role du jdk
+2)-->Telechargement du jdk
+3)-->Installation pas à pas du jdk
+4)-->Analyse contenu et repertoires du jdk
+5)-->Test de l'installation du jdk
+6)-->Questions
+
+(1)NB-->Role du jdk
+
+Le jdk (java developpement kit en anglais --> kit de developpement java en français )
+Represente l'outil indipensable du developpeur java
+	Ce kit contient les outils necessaires pour :
+-->programmer
+-->Executer ses programmes en java
+-->Tester ses programmes java
+-->livrer ses programmes java à ses clients 
+
+(2)NB--> telechargement du jdk
+
+-->Rendez vous sur le site d'oracle :
+
+http://www.oracle.com/technetwork/java --> Pour telecharger le jdk de votre choix
+
+NB--> 2eme Option --> est de recuperer le jdk dans une cle usb --> puis le mettre à l'emplacement :
+
+CePc--->Acer-->developpement-->sdk-->java-->jdk8-->jdk1.8.0_20-->bin
+
+***NB-->Il est important à present--> de pouvoir ouvrir l'invite de commande : CMD --> à partir 
+de ce repertoire : bin
+
+NB-->Ouvrir une invite de commande --> à partir du click droit de la souris
+
+-->window + r -->regedit-->Hkey_Classes_Root-->Directory--->Shell-->Click droit-->
+nouveau cle-->Renommer : CommandePrompt-->double click : par defaut--> ecrire :
+Ouvrir une invite de Commande --> Ok
+
+NB-->dans le repertoire : CommandPrompt -->Click droit-->nouveau cle-->Renommer -->Command-->
+double click : par defaut--> ecrire : cmd.exe espace /k espace %1 -->Ok
+
+NB-->Aller sur un repertoire quelconque-->Faites un click droit-->Et vous avez l'option :
+Ouvrir une Invite de Commande
+
+(3)NB-->Installation pas à pas du jdk
+
+NB-->Configuration PATH jdk
+
+***NB-->Il est tres important de comprendre ceci :
+
+1)-->dans sdk-->java-->jdk ( dans ce repertoire : jdk --> placez le fichier executable de votre jdk : avec l'extension : .exe )
+2)--> Lancez ou executez ce fichier : .exe
+3)--> Suivez les instructions jusqu'a la fin de linstallation ( NB--> Ne changer surtout pas le repertoire par defaut)
+4)--> NB--> Verifier qu'un repertoire : java est cree par defaut dans : Program Files(x86) --> 
+NB --> Vous avez deux sous repertoires : jdk et jre dans ce repertoire java	
+
+NB-->Apres avoir executer et installer le jdk --> Il faut à present passer à la configuration du path dans votre variable
+d'environnement
+
+***NB-->Configurer le path de votre jdk dans les variables d'environnements
+
+1)--> Aller dans : Ce Pc-->ProgramFiles(x86)-->Java-->jdk1.8.0_111-->bin --> Copier ce chemin jusqu'au repertoire bin
+
+2)--> Click droit dans ce Pc-->proprietes-->Parametres Systeme avances-->variables d'environnement-->
+dans variables utilisateurs-->Nouvelle-->Nom de variable : ecrire : Path-->valeur de la variable :
+Coller le chemin du jdk -->ensuite mettre un point virgule : ; --> et pour terminer : %Path% -->ok-->ok-->ok
+
+***NB-->Faire une 2eme verification
+
+NB-->Pour connaitre la version du jdk que vous utilisez--> faire ceci :
+Lancer CMD: ecrire : 
+-->tapez : java espace -version-->puis : entree
+-->tapez : javac espace -version -->puis :entree
+javac 1.8.0-20 --> C'est la version de java que j'utilise
+
+-->lancer le CMD : -->window + r -->lancer la commande : javac --> puis entree
+
+Si le jdk n'est pas encore installe-->Vous avez ce message : 
+"java n'est pas reconnu en tant que commande interne ou externe ; programme executable ou un fichier de commandes . "
+
+-->lancer l'instruction ( la commande ) : java --> puis entree
+-->lancer l'instruction ( la commande ) : javac espace -version --> puis entree
+
+
+NB-->Configuration PATH jdk
+
+***NB-->Il est tres important de comprendre ceci :
+1-->Il faut tout d'abord copier le fichier executable du jdk (avec l'extension  .exe)
+2-->puis l'installer dans votre machine
+3-->Ne pas oublier de creer un sous repertoire : jre dans le repertoire : java durant la configuration
+
+NB-->Apres avoir execute et installe le jdk
+-->Faire la 1ere verification
+
+Lancer : CMD-->ecrire : java-->puis :entree--> Ceci permet de connaitre le jdk que vous utilisez.
+
+***NB-->Configurer le path de votre jdk dans les variables d'environnements
+
+Click droit dans ce Pc-->proprietes-->Parametres Systeme avances-->variables d'environnement-->
+dans variables utilisateurs-->Nouvelle-->Nom de variable : ecrire : Path-->valeur de la variable :
+Coller le chemmin du jdk -->ensuite mettre un point virgule : ; -->et pour terminer : %Path% -->ok-->ok-->ok
+
+***NB-->Faire une 2eme verification
+
+NB-->Pour connaitre la version du jdk que vous utilisez--> faire ceci :
+Lancer CMD: ecrire : 
+-->tapez : java espace -versin-->puis : entree
+-->tapez : javac espace -version -->puis :entree
+javac 1.8.0-20 --> C'est la version de java que j'utilise
+
+
+4)-->Analyse contenu et repertoires du jdk
+
+
+5)-->Test de l'installation du jdk
+
+-->lancer le CMD : -->window + r -->lancer la commande : javac --> puis entree
+
+Si le jdk n'est pas encore installe-->Vous avez ce message : 
+"java n'est pas reconnu en tant que commande interne ou externe ; programme executable ou un fichier de commandes . "
+
+-->lancer l'instruction ( la commande ) : java --> puis entree
+-->lancer l'instruction ( la commande ) : javac espace -version --> puis entree
+
+
+6)-->Questions
+
+Etes vous desormais capable de repondre simplement(Sujet + verbe +Complement ) aux questions suivantes
+
+
+***NB-->Partie Tp : 3eme heure
+NB-->Premier programme java : tp1Promo1SupInfo --> En trois Etapes .
+
+// Etape 1 : Creer la classe
+-->lancer : Notepad++ -->Ctrl + n --> puis ecrire la Structure :
+
+// Creer la classe : tp1Promo1SupInfo 
+
+class tp1Promo1SupInfo {
+
+// Mettre la methode main
+
+public static void main (String[]args){
+
+//
+
+System.out.println("Bienvenue à SupInfo : Specialiste de la formation Java au senegal");
+
+
+}
+
+
+} 
+
+// Etape 2 : Enregistrer le fichier avec l'extension : .java
+
+***NB-->la 1ere chose à faire est : -->d'enregistrer le fichier avec une extension : .java
+
+// Etape 3 : Executer le programme sur : CMD
+
+***NB-->Pour Executer le programme sur CMD :
+-->lancer CMD --> placez vous dans le repertoire : tp1Promo1SupInfo --> ou vous avez le fichier : .java
+
+NB-->Les deux etapes qui suivent :
+-->Il faut les faire successivement : 
+
+--> javac espace nomFichier.java -->puis Entree --> Cela permet de Creer un fichier.class
+
+--> Ensuite
+
+--> java espace nomFichier (sans l'extension.java) --> puis Entree
+
+***NB--> C'est tres tres important d'etre à mesure d'executer ce programme
