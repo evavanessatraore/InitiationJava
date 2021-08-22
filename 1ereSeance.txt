@@ -1,0 +1,95 @@
+NB-->Seance1-->Module1
+
+
+NB-->15/01/2018-->Seance1-->Module1-->le metier de developpeur
+
+***NB-->Objectifs de la seance
+
+1)Comprendre ce que c'est une application 
+2)Comprendre les etapes cles dans la creation d'une application
+3)Comprendre l'ordre des intervenants dans le processus de creation d'une application
+4)Comprendre les criteres de qualite d'un logiciel
+5)Comprendre le metier de developpeur
+6)Comprendre l'architecture en couche
+
+
+***NB-->Questions-->Reponses
+1)Qu'est ce qu'une application informatique ?
+
+Application=programme informatique contribuant à une meilleure productivite de l'utilisateur
+Sur ordinateur(desktop) ; sur internet(web) ;ou mobile.
+
+2)Quels sont les 5 etapes cles dans la creation d'une application ?
+
+1ere-->Cahier des charges
+2eme-->Conception
+3eme-->Developpement=Realisation+Codage
+4eme-->Test
+5eme-->Deploiement
+
+3)Quels metiers pour creer une application ? 
+
+Genie logiciel
+
+4)Quel role pour le developpeur ?
+
+Creer une application repondant à un besoin
+Faire le choix du langage de programmation
+Traduire le cahier de charge en code
+
+Développement = Réalisation = Codage
+– Choisir langage programmation
+– Traduire le cahier des charges en code
+
+5)Quels debouches pour le developpeur ?
+
+-->Si vous etes competent/productif ; le niveau d'etudes n'est pas un obstacle à l'embauche
+-->Creer votre propre entreprise
+
+6)Quel langage utilise ? Pourquoi ?
+Il y'a 2 criteres dans le choix du langage de programmation
+1-->Comprendre les Atouts ou points forts du langage que vous avez choisi
+2--> ?
+-->Contrairement à d'autres langages ; java et C# permettent de developper aussi bien des applications :web ; Mobile et Desktop
+
+7)Qu'est ce qu'un developpeur back office
+
+Back Office-->Ce que le client ne voit pas : traitement metiers(regles de gestion ; Acces donnees)
+
+
+
+
+
+
+NB-->15/01/2018-->Seance1-->Module1-->le metier de developpeur
+
+Objectifs de la seance
+1)Comprendre ce que c'est une application 
+2)Comprendre les etapes cles dans la creation d'une application
+3)Comprendre l'ordre des intervenants dans le processus de creation d'une application
+4)Comprendre les criteres de qualite d'un logiciel
+5)Comprendre le metier de developpeur
+6)Comprendre l'architecture en couche
+
+
+(1)NB-->Application
+Une application-->c'est un programme informatique-->Contribuant à une meilleure produtivite de l'utilisateur
+(sur ordinateur :desktop ;sur internet :web ;sur telephone :mobile )
+
+Une application doit repondre à un besoin-->le besoin doit etre clair-->il y'a la notion de delais-->de cout
+
+(2)Etapes cles de la creation d'une application
+
+1ere-->Cahier des charges
+2eme-->Conception
+3eme-->Developpement=Realisation+Codage
+4eme-->Test
+5eme-->Deploiement
+
+(3)Comprendre l'ordre des intervenants dans le processus de la creation d'une application
+
+(4)NB-->Criteres de qualite d'un logiciel
+
+(5)NB-->Comprendre le metier de developpeur
+
+(6)NB-->Comprendre l'architecture en couche
