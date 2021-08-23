@@ -1,0 +1,16 @@
+NB-->21/02/2018-->Seance12-->Module1-->Constructeur(definition + codage)
+
+NB-->Objectifs de la Seance
+1)Comprendre : Qu'est ce qu'un constructeur
+2)Comprendre : la notion de constructeur par defaut
+3)Comprendre : Quels sont les avantages d'avoir plusieurs constructeurs
+4)Comprendre les mots cles : 
+a-->Super
+b-->this
+
+NB-->Un constructeur intervient uniquement dans la creation de l'objet
+
+NB-->Rappel de la seance precedente 
+
+(1)NB-->Qu'est ce qu'un constructeur ? le role d'un constructeur ?
+

@@ -1,0 +1,116 @@
+NB-->09/02/2018-->Seance8-->Module1
+
+NB-->Objectifs de la seance
+
+1)Positionnement d'Eclipse
+2)les 5 notions cles d'Eclipse
+-->Workspace
+-->Vue
+-->Perspective
+-->Plugin
+-->MarketPlace
+3)les 15 bonnes pratiques du developpeur java
+4)Comprendre les Raccourcis-->Pour auguementer la productivite du programmeur
+5)Integrer la javadoc dans Eclipse
+
+
+(1)NB-->Positionnement d'Eclipse
+
+Vous ne pouvez pas realiser une application sans un editeur de texte
+le choix de l'editeur de texte depend des atouts et des limites de celui çi
+
+NB-->Atouts d'un Editeur de texte
+-->numerotation des lignes
+-->detection erreurs de compilation
+-->coloration syntaxique
+-->debugage d'un programme
+-->recherche simple ; recherche avancee
+
+NB-->le minimum pour editer un code java c'est : Notepad++
+
+NB-->Mais pour nous Objis-->Il est recommande d'utiliser : Eclipse
+
+NB-->telecharger la version qui correspond à votre systeme d'exploitation
+
+Une vue-->C'est juste une fenetre
+
+(2)NB-->Notions Cles
+
+1-->Workspace==>repertoire de travail
+Vos projets-->se trouvent dans un ou plusieurs workspace
+
+lorsque vous lancez Eclipse-->Il vous demande : quel workspace utiliser ?
+
+2-->Vue==>C'est une fenetre particuliere
+
+Exemple de vue
+
+3-->Perspective==>C'est un ensemble de vues
+
+4-->Plugin==>C'est une fonctionnalite additionnelle
+
+***plugin Android
+***plugin Php
+***plugin WindowsBuilder
+***plugin Junit
+***plugin Maven
+***plugin WTP
+
+NB-->Installation de plugin
+
+MarketPlace-->permet l'installation de plugin
+
+Help-->Eclipse MarketPlace
+
+(3)NB-->les 15 bonnes pratiques
+Voir le Tutoriel Objis
+-->
+-->
+-->
+-->
+-->s
+
+(4)NB-->Les Raccourcis clavier
+
+1-->Ctrl+Espace-->***c'est indispensable
+2-->Ctrl+Shift+O-->***permet
+3-->Ctrl+Shift+T-->
+4-->Ctrl+O-->
+5-->Ctrl+O+O-->
+6-->Ctrl+T
+7-->Alt+Shift+J-->***permet de generer le commentaire de la javadoc
+8-->Ctrl+Shift+F-->***permet d'indenter un code
+9-->Alt+Shift+R-->
+10-->Ctrl+Shift+C-->***permet de commenter un code
+11-->Ctrl+Shift+/
+12-->Ctrl+Shift+P
+
+
+(5)NB-->Integrer la javadoc dans Eclipse
+Dans Eclipse-->allez sur window :
+-->preferences
+-->java
+-->Installed jres
+-->Cliquer sur : jre1.8.0_20 // c'et la version de votre jre
+-->Edit
+-->selectionner tous les jars
+-->javadoc location
+-->cocher : javadoc in archive
+-->dans archive path
+-->Browse
+-->rendez vous à l'endroit ou vous avez votre jdk
+-->Cliquer sur votre jdk
+-->Ensuite dans : path with in archive
+-->Browse
+-->api-->ok-->Validate
+
+NB-->Pour Verifier l'integration de la javadoc dans votre Eclipse
+
+-->Ouvrez un projet java dans Eclipse
+-->Faites passer le Curseur au dessus d'une methode de la classe
+-->De preference System.out.println
+-->Une bulle sort pour donner les informations de la methode
+
+NB-->Ca y est -->vous pouvez acceder à la javadoc en poitant le Curseur de la souris sur une classe de votre code
+
+

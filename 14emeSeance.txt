@@ -1,0 +1,71 @@
+NB-->28/02/2018-->Seance14-->Module1-->Heritage
+
+NB-->Objectifs de la Seance
+
+1)Comprendre : le concept Heritage
+2)Comprendre : la mise en oeuvre de l'heritage
+3)Comprendre : Comment acceder aux membres(proprietes et methodes)
+de la classe de base(classe mere)
+4)Comprendre : Comment creer des objets derives
+
+NB-->l'heritage est une notion qui implique :
+1-->Une seule classe mere ou super classe(pas d'heritage multiple en java)
+-->la classe mere de toutes les classes est la classe : javax.lang.Object
+2-->Une ou plusieurs classes dites specialisees ou sous classes
+-->Ces sous classes heritent des attributs et methodes public protected de leur classe mere
+par heritage direct ou en cascade(plusieurs niveaux d'heritage)
+-->Elles(ces sous classes) peuvent redefinir les methodes de la classe mere
+Enrichir le comportement en ajoutant d'autres methodes
+
+Un objet derive-->est cree à partir d'une instance de la classe fille
+
+NB-->Rappel Seance precedente
+
+1)NB-->heritage
+C'est une notion de la programmation oriente objet
+qui permet de creer une classe à partir d'une classe existante
+
+qui permet d'offrir la possibilite de creer des composants reutilisables
+
+Revient à creer une nouvelle classe fille
+-->nouvelle classe :
+**classe derivee
+**classe fille
+-->classe de base
+**classe mere
+
+NB-->En java il y'a deux types d'heritage : 
+-->heritage direct(la classe fille ou sous classe ne comporte pas de sous classe; n'est pas heritee)
+
+-->heritage en cascade-->la classe fille comporte des sous classe
+
+A<---B<---C
+
+l'heritage en java est Transitive
+B-->herite de A
+c-->herite de B
+donc c-->herite de A
+
+NB-->l'heritage multiple n'existe pas en java
+
+Une classe A-->ne peut pas heriter de plusieurs classes : B et C
+
+NB-->java n'accepte que l'heritage simple
+
+Une classe-->ne peut heriter que d'une seule classe
+
+NB-->Une classe B herite d'une classe A-->signifie que cette classe B
+herite des attributs et methode(public et protected) de la classe de base
+(la classe de base)
+
+Rque-->les membres declares avec la visibilite default(dans la classe de base)
+sont accesibles directement aux classes filles definies dans le meme package
+
+Rque2-->les membres declares avec la visibilite private dans la classe de base-->
+ne sont pas accesibles dans les classes filles
+
+NB-->En java la notion qui permet de creer des composants reutilisables-->
+c'est l'heritage
+
+(2)NB-->Mise en oeuvre de l'heritage
+

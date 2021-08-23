@@ -1,0 +1,10 @@
+NB-->16/02/2018-->Seance9-->Module1
+
+NB-->Objectifs de la Seance
+
+1)Comprendre l'importance de la documentation du code
+2)Comprendre les trois types de commentaire
+3)Savoir lire la documentation de l'API java SE
+4)Savoir lire et localiser la documentation d'une classe
+5)Savoir lire la javadoc de vos programmes java
+6)?

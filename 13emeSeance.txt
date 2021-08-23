@@ -1,0 +1,58 @@
+NB-->26/02/2018-->Seance13-->Module1-->Surcharge
+
+NB-->Objectifs de la Seance
+1)Comprendre : la notion de surcharge
+2)Comprendre : Comment surcharger un constructeur
+3)Comprendre : Comment surcharger une methode metier
+
+NB-->Rappel sur quelques notions fondamentales
+
+1-->Signature d'une methode : C'est la Combinaison des informations suivantes
+-->le nom de la methode
+-->les parametres de la methode
+
+2-->declaration d'une methode : C'est la combinaison des informations suivantes
+-->visibilite de la methode
+-->type de retour de la methode
+-->le nom de la methode
+-->les parametres de la methode
+
+3-->Implementation d'une methode : C'est le corps de la methode
+
+4-->Un Constructeur : C'est une methode particuliere :
+-->qui a le meme nom que la classe
+-->n'a pas de type de retour
+-->qui peut avoir plusieurs parametres
+
+NB-->Est il possible d'avoir plusieurs Constructeurs dans une classe ?
+
+Oui-->Une classe peut avoir plusieurs constructeurs-->Mais ces constructeurs doivent etre differencier
+par les noms et les types de parametre
+
+NB-->Un Constructeur par defaut-->C'est un constructeur sans parametre et qui permet la creation d'objets
+Il est appele pseudo Constructeur
+
+NB-->le fait d'avoir plusieurs Constructeurs dans une classe-->C'est ce qu'on appelle la surcharge
+
+NB-->ce qui interresse le compilateur c'est le nombre de parametre et le type de parametres
+le nom des variables n'est pas important pour le compilateur
+Sinon vous risquez d'avoir des erreurs
+
+NB-->les deux premiers modules sont tres tres important
+Si vous les comprenez-->vous allez progresser sans difficulte
+Mais si vous avez des difficultes dans ces modules-->vous aurez certainement des difficultes pour la suite de la formation
+
+NB-->le compilateur prend en compte le nombre de parametres et le type des parametres
+
+NB-->Analyse des constructeurs de la classe JFrame
+
+Nb-->le fait d'avoir plusieurs constructeurs dans la meme classe-->C'est ce qu'on appelle surcharge
+
+NB-->Surcharger une methode-->reviens à crrer plusieurs methodes avec le meme nom mais avec une signature differente
+
+NB-->l'avantage de la surcharge-->c'est d'offrir un choixx au client
+Ce qui est important-->c'est le nom de la methode et ses parametres
+
+NB-->Comme on peut surcharger un Constructeur-->il est egalement possible de surcharger une methode metier
+
+NB-->le type de retour n'est pas important ici

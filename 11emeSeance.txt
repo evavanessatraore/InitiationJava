@@ -1,0 +1,106 @@
+NB-->Seance11--Module1-->19/02/2018-->Encapsulation
+
+
+NB-->Objectifs de la Seance
+
+1)Comprendre la notion d'encapsulation
+2)Comprendre la notion d'accesseur(getter) et de mutation(setter)
+3)Nomenclature des accesseurs(getter) et de mutateur(setter)
+4)Comprendre comment lire(voir) et modifier l'etat d'un objet
+
+1)NB-->Notion d'encapsulation
+
+l'encapsulation-->Consiste à reduire la visibilite des proprietes  et ddes methodes d'une classe
+afin de n'exposer que les fonctionnalites reellement necessaires pour les classes utilisatrices
+
+NB-->Cette encapsulation en java es traduite par des mots cles
+
+NB-->Cette reduction de la visibilite est rendue possible avec le mot cle :
+-->private-->Visibilite interne à la classe
+-->public-->Visibilite pour toutes les classes
+-->protected-->Visibilite pour les classes enfants
+-->default-->Visibilite pour les classes du meme package
+
+NB-->default-->C'est la visibilite par defaut des proprietes et des methodes d'une classe
+
+Pour la suite de la formation-->cette notion d'encapsulation est tres tres importante
+
+NB-->Tableau de visibilite
+
+NB-->Un developpeur qui ne sait pas lire un diagramme de classe-->est parti sur une mauvaise base
+Parcequ'un developpeur s'appuie sur le travail d'un concepteur
+
+NB-->Si une methode-->n'est pas utille dans les autres classes-->initule de la rendre visible
+
+(2)NB-->Notions d'accesseur et de mutateur
+
+NB-->Maintenant si dans une classe les proprietes sont decllarees avec une visibilite : 'private'
+Le moyen d'acceder à ces proprietes est de passer par :les accesseurs(getters)
+
+NB-->l'accesseur-->est une methode qui permet de lire ou voir une propriete 'private'
+
+NB-->Si une propriete de la classe-->est declaree avec un mot cle : private
+Cette propriete n'est pas accessible directement
+
+NB-->le seul moyen d'acceder à la valeur(pour la lecture de cette propriete) est de passer par l'accesseur( le getter )
+
+NB-->Mainteant pour l'ecriture(la moodification)-->on passe par un mutateur
+
+NB-->Un setter-->est une methode qui permet de modifier la valeur d'une propriete
+
+NB-->Question-->1ere question
+Vous avez une propriete avec une visibilite 'private'
+Si vous ne voulez pas que cette propriete soit modifier de l'exterieur-->Il ne faut creer pas creer son getter
+
+NB-->Question-->2eme question
+Si une methode est creee-->avec le mot cle 'private'
+Comment faire pour acceder à cette methode de l'exterieur ?
+On passe par une methode 'public'-->ayant acces à cette methode
+
+NB--->
+
+- ==>visibilite 'private'
++ ==>visibilite 'public'
+# ==>visibilite 'protected'
+  ==>visibilite 'default'
+  
+NB-->les methodes : getter et setter-->ont une convention de nomenclature
+
+get suivi du nom de la propriete-->qui commence par une lettre Majuscule
+Exemple : getPassword
+La methode : get ne prend rien en parametre-->n'a pas de valeur de retour
+
+set suivi du nom de la propriete-->qui commence par une lettre Majuscule
+Exemple : setPassword
+La methode set-->prend en parametre(le type de la valeur)
+n'a pas de valeur de retour( ne renvoie rien )
+
+this.codeClient=codeClient;
+
+le getter-->comme le setter doivent toujours avoir une visibilite :'public'
+
+NB-->Bonne pratique-->veut que les proprietes soient masquees
+
+NB-->4 principes fonddamentaux-->4 points fondamentaux 
+  
+NB-->Generalement ce sont les fonctionnalites et les services-->qui ont une visibilite 'public'
+
+NB-->la bonne pratique-->veut que les proprietes soient visibles uniquement dans la classe
+Et pour acceder à ces methodes--->utiliser les getters et setters
+
+NB-->Si vous declarez une propriete-->sans mettre une visibilite-->Elle prend par defaut-->la visibilite : default
+
+1-->les methodes dites utilitaires-->prennent une visibilite 'private'
+2-->les proprietes de la classe doivent etre visibles uniquement dans la classe-->Visibite :'private'
+3-->les fonctionnalites qui doivent etre utilisees à l'exterieur de la classe
+doivent avoir une visibilite : 'public'
+
+NB-->pourquoi le getter ne prend pas dde parametre ?
+
+NB-->pourquoi le setter prend des parametres ?
+
+NB-->Fiche tp sur le drive
+
+NB-->Un constructeur sans parametre-->n'est pas forcemment un constructeur par defaut
+
+NB-->Mais un constructeur par defaut-->est un constructeur qui ne prend pas de parametres

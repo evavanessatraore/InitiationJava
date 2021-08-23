@@ -1,0 +1,78 @@
+NB-->05/03/2018-->Seance15-->Module1-->Redefinition
+
+NB-->Objectifs de la Seance
+1)Comprendre le Concept de Redefinition
+2)Comment mettre en oeuvre une Redefinitionn
+3)Comprendre les contraintes sur la Redefinition
+4)Comprendre les regles sur la Redefinition
+
+
+NB-->C'est dans le context de l'heritage que la redefinition s'utilise
+Sans heritage-->Pas de redefinition
+
+NB-->Rappel sur la Seance Precedente
+-->heritage direct-->C'est quand la classe fille n'a pas de sous classes
+-->Elle peut heriter directement de la classe mere
+Mais si elle a des sous classes-->ce n'est pluus de l'heritagge direct
+
+(1)NB-->Redefinition
+C'est une notion de la programmation oriente objet-->qui est liee au context d'heritage
+
+Elle consiste-->pour une classe fille de proposer une implementation differente
+de celle de la classe mere
+
+Redefinir une methode-->c'est coder une methode de la classe fille qui a la meme signature
+-->mais dont l'implementation est differente
+
+(3)NB-->Contraintes sur la redefinition
+Maintenant dans la redefinition il y'a des contraintes :
+
+1ere contrainte-->les deux methodes doivent avoir la meme signature
+et le meme type de retour
+
+En java la redefinition impose l'identite des signatures et des types de retour
+des methodes de la classe de base et de la classe fille
+
+2eme contrainte-->le droit d'acces(la visibilite) de la methode de la classe mere
+ne doit pas etre reduit dans la classe fille
+
+Au contraire-->la visibilite peut etre protected dans la classe mere-->mais
+s'auguementee dans la classe fille : public
+
+4)NB-->Regles sur la Redefinition
+
+On suppose qu'une methode ds la classe derivee a le meme nom qu'une methode de la classe parente
+
+1er cas
+-->Si les deux methodes ont la meme signature et le meme type de retour
+-->le droit d'acces(la visibilite) de la methode derivee est egale ou plus elevee
+que celle de la classe parente
+
+Alors il s'agit de la redefinition
+
+2eme cas
+-->Si les deux methodes ont le meme nom-->mais avec une signature differente
+
+Alors il s'agit de la surcharge(ou surdefinition)
+
+3eme cas
+Sinon(si on est pas dans les deux cas precedents)--> c'est une erreur
+
+NB-->Ce ne sont pas toutes les methodes qui peuvent etre redefinies
+
+Si une methode ne doit pas etre redefinie-->On utilise le mot cle : static
+
+Une methode static ne peut etre redefinie
+
+NB-->la duplication
+-->dans une classe de base vous avvez :
+protected String a;
+
+-->dans une classe fille vous avez :
+private String a;
+
+Un meme nom de variable a ete utilise dans les deux classes.
+C'est ce qu'on appelle une duplication
+
+
+ 
